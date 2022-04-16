@@ -28,11 +28,11 @@ METKA_3:
 WRITE ADXBreak, ADXBreak.len
 EXIT
 SECTION .data
-BMI2: DB "BMI2 - ON", 0xA
+BMI2: DB "BMI2: on", 0xA
 .len: EQU $ - BMI2
-BMIBreak2: DB "BMI2 - OFF", 0xA
+BMIBreak2: DB "BMI2: off", 0xA
 .len: EQU $ - BMIBreak2
-ADX: DB "ADX - ON", 0xA
+ADX: DB "ADX: on", 0xA
 .len: EQU $ - ADX
-ADXBreak: DB "ADX - OFF", 0xA
+ADXBreak: DB "ADX: off", 0xA
 .len: EQU $ - ADXBreak
